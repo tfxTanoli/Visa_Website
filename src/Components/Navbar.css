@@ -1,0 +1,21 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  width: 100%;
+  height: 65px;
+}
+.navbar-brand {
+  border: 2px solid transparent;
+  transition: border-top-color 0.3s linear;
+}
+.navbar-brand:hover {
+  border-top-color: rgb(22, 155, 84);
+}
+.nav-item {
+  border: 1.5px solid transparent;
+  transition: border-top-color 0.3s ease;
+}
+.nav-item:hover {
+  border-top-color: rgb(22, 155, 84);
+}
